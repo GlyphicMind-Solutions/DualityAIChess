@@ -1,0 +1,19 @@
+# Core LLM + GGUF runtime
+llama-cpp-python>=0.2.70
+
+# Chess logic
+python-chess>=1.999
+
+# GUI (Tkinter is built-in, but ttkbootstrap is optional)
+Pillow>=10.0.0
+
+# YAML config loading
+PyYAML>=6.0
+
+# Optional: if you use JSON configs, Python handles it natively (no package needed)
+
+# Engine subprocess management (built-in, no package needed)
+
+# If you ever add CLI features:
+# click>=8.1.7
+

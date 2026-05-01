@@ -1,0 +1,35 @@
+# models/manifest.yaml
+# Chess LLM registry (local .gguf via llama_cpp)
+# Created By: David Kistner (Unconditional Love) at GlyphicMind Solutions LLC.
+
+# Modify this file to fit your needs.  
+# The model path should point to your model location.  
+# Comment out or remove models you do not have or wish to use.  
+# The "template" field determines which prompt template is injected.  
+
+models:
+  GPT:
+    path: ./models/gpt-oss-20b-MXFP4.gguf
+    n_ctx: 131072
+    template: gpt
+
+  Mistral:
+    path: ./models/mistral-7b-instruct-v0.2.2.Q4_K_M.gguf
+    n_ctx: 32768
+    template: mistral
+
+  # qwen_coder:
+  #   path: ./models/qwen2.5-coder.gguf
+  #   n_ctx: 32768
+  #   template: qwen
+
+  # llama_default:
+  #   path: ./models/llama-3-8b-instruct.gguf
+  #   n_ctx: 32768
+  #   template: llama
+
+defaults:
+  mode: llm_vs_llm        # llm_vs_llm | user_vs_llm | user_vs_user
+  white_model:
+  black_model:
+
