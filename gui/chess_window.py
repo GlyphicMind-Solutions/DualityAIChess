@@ -227,7 +227,7 @@ class ChessWindow:
         self.move_log.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 10))
 
         #chat box
-        self.chat_box = tk.Text(panel, height=25, width=50, state="disabled")
+        self.chat_box = tk.Text(panel, height=20, width=50, state="disabled")
         self.chat_box.pack(fill=tk.BOTH, expand=True)
         self.chat_box.tag_config("user", foreground="#64B5F6")
         self.chat_box.tag_config("coach", foreground="#81C784")
