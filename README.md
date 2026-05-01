@@ -185,7 +185,7 @@ PyYAML>=6.0
 User messages → ChatSelector → LLM → Coach/Commentator output
 
 
-###📜 License
+### 📜 License
 This project is created by David Kistner (Unconditional Love) at GlyphicMind Solutions LLC.
 All rights reserved unless otherwise specified.
 
